@@ -2,10 +2,12 @@ Title: My non-ELPA Emacs swank-clojure setup
 Date: 2010-04-07 21:12
 Tags: clojure, Emacs, ELPA, swank-clojure
 
-I stubbornly refuse to use ELPA. I keep my ~/.emacs and associated 
-libraries in Git[1][2] and don't like deviating from that with ELPA by 
-running the clojure code from an unversioned directory that isn't 
-automatically there when I set up my Emacs configuration from Git. 
+I stubbornly refuse to use ELPA. I keep
+[my ~/.emacs](http://github.com/avar/dotemacs) and
+[associated libraries](http://github.com/avar/elisp) in Git, and don't
+like deviating from that with ELPA by running the clojure code from an
+unversioned directory that isn't automatically there when I set up my
+Emacs configuration from Git.
 
 I couldn't find any documentation for setting up Emacs + Clojure + 
 Swank without ELPA. What follows are the steps I had to do to get my 
@@ -112,7 +114,4 @@ run-clojure to run Common Lisp or Clojure:
 
 Of course all of this was such a pain that I pretty much stopped there 
 and haven't actually /done/ anything with clojure aside from a Hello 
-World :) 
-
-1. http://github.com/avar/dotemacs 
-2. http://github.com/avar/elisp
+World :)
