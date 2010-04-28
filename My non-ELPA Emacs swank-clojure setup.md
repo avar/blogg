@@ -69,8 +69,7 @@ this. Maybe it does and I haven't found the relevant bits:
             (list 
              (concat clojure-src-root "/clojure/clojure.jar") 
              ;; Hack: Expand the name of the .jar with some Emacs glob function 
-             (concat clojure-src-root 
-"/clojure-contrib/target/clojure-contrib-1.2.0-SNAPSHOT.jar") 
+             (concat clojure-src-root "/clojure-contrib/target/clojure-contrib-1.2.0-SNAPSHOT.jar") 
              (concat clojure-src-root "/swank-clojure/src") 
              (concat clojure-src-root "/clojure/test/clojure/test_clojure"))) 
       (eval-after-load 'slime 
