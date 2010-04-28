@@ -1,3 +1,6 @@
+Title: My non-ELPA Emacs swank-clojure setup
+Date: 2010-04-07 21:12
+
 I stubbornly refuse to use ELPA. I keep my ~/.emacs and associated 
 libraries in Git[1][2] and don't like deviating from that with ELPA by 
 running the clojure code from an unversioned directory that isn't 
